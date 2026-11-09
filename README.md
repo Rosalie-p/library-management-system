@@ -80,9 +80,9 @@ data into each book. Reasons:
 
 
 
-\## Prisma vs. a document database
 
+\## Prisma vs. a Document Database
 
+Working with Prisma and PostgreSQL felt different from using a document database because I had to define the relationships between entities in advance using a schema. In a document database, related data can be stored together in nested documents, while in PostgreSQL, I used foreign keys to connect tables such as Book and Genre. This helped me understand the importance of data consistency, normalization, and maintaining clear relationships between data.
 
-(Write 2-3 sentences in your own words about one thing that felt different.)
 
