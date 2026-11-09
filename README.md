@@ -1,4 +1,4 @@
-\# Library Management System
+# Library Management System
 
 
 
@@ -6,7 +6,7 @@ Data layer for a library's book catalog, built with NestJS, Prisma and a hosted 
 
 
 
-\## Setup
+## Setup
 
 
 
@@ -30,7 +30,7 @@ The seed inserts 4 genres and 16 books. It is safe to re-run.
 
 
 
-\## Schema Decisions
+## Schema Decisions
 
 
 
@@ -81,7 +81,7 @@ data into each book. Reasons:
 
 
 
-\## Prisma vs. a Document Database
+## Prisma vs. a Document Database
 
 Working with Prisma and PostgreSQL felt different from using a document database because I had to define the relationships between entities in advance using a schema. In a document database, related data can be stored together in nested documents, while in PostgreSQL, I used foreign keys to connect tables such as Book and Genre. This helped me understand the importance of data consistency, normalization, and maintaining clear relationships between data.
 
